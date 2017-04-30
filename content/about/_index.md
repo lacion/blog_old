@@ -5,8 +5,6 @@ title = "About"
 [menu.main]
 
 +++
-
-
 My name is Luis Morales; I’m a lifelong programmer, site reliability engineer, and maker, and as of 2011, a parent as well. I work out of my home office in Madrid, Spain. This is my blog. There are many like it — infrequently updated, lacking direction, occasionally entertaining — I hope you enjoy it.
 
 Here are some links to pages about me:
