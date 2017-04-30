@@ -3,6 +3,13 @@ author: Luis Morales
 date: '2016-12-04T00:00:00Z'
 linktitle: Makefile is Awesome
 title: Makefile is Awesome
+tags:
+- make
+- engineering
+- development
+categories:
+- Make
+- Development
 
 ---
 Make is one of those utilities you don't think about very often, but given that almost every system has it installed by default makes it the ideal hassle free choice to bootstrap and automate your projects.
