@@ -6,11 +6,16 @@ title = "About"
 [menu.main]
 
 +++
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
+My name is Luis Morales; I’m a lifelong programmer, site reliability engineer, and maker, and as of 2011, a parent as well. I live in Madrid, Spain. This is my blog. There are many like it — infrequently updated, lacking direction, occasionally entertaining — I hope you enjoy it.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Here are some links to pages about me:
 
-***
+* [lacion@github](https://github.com/lacion) — my public projects on GitHub
+* [LinkedIn profile](https://www.linkedin.com/in/luismmorales/) — my professional profile
+* [Instagram](https://www.instagram.com/lacion/) — some of my aerial photography and videos
+* [youtube](https://www.youtube.com/channel/UCJ_mzvOru8zItItJjDeRPRg) — a glimpse of things i capture with my drone
+
+<hr>
 
 ### Lorem ipsum dolor.
 
