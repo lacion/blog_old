@@ -1,0 +1,58 @@
+# Site settings
+baseurl = "https://www.critiqus.com/"
+themesDir = "themes"
+languageCode = "en-us"
+title = "Thoughts and ideas of a maker"
+theme = "hugo-cactus-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = "thoughts-and-ideas-of-a-maker"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
+[params]
+	name = "Luis Morales"
+	description = "Make | Developer | DevOps"
+	bio = "Maker & DevOps"
+	# Enter optionally your twitter account
+	twitter = "lacion"
+	enableRSS = true
+
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "DevOps | Maker | Drone Enthusiast"
+	tweet = "lacion"
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "mono-social"
+    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+    socialIconStyle = "circle"
+
+# Add additional social link entries underneath
+[social]
+    twitter  = "https://www.twitter.com/lacion"
+    github   = "https://www.github.com/lacion"
+    instagram   = "https://www.instagram.com/lacion/"
