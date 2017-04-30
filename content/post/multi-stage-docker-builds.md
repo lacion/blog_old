@@ -12,7 +12,7 @@ categories:
 - Development
 
 ---
-I talked about how to create slim containers with only the necessary dependencies to run your applications in the past, but now next release of docker features multistage containers that reduce the complexity of having a build container and them copying your final application to a run container.
+I talked about how to create [slim containers]({{< ref "post/tiny-docker-images.md" >}}) with only the necessary dependencies to run your applications in the past, but now next release of docker features multistage containers that reduce the complexity of having a build container and them copying your final application to a run container.
 
 What before was 2 containers and 2 dockerfiles we can now reduce to:
 
@@ -49,6 +49,7 @@ COPY --from=build-stage /gopath/src/github.com/lacion/foo/bin/foo /opt/foo/bin/
 RUN chmod +x /opt/foo/bin/foo
 
 CMD /opt/foo/bin/foo
+
 ```
 
-All of this means, we can now reduce the amount of code to maintain and the complexity of it, it also means our makefiles will be less complex and easier to understand. 
+All of this means, we can now reduce the amount of code to maintain and the complexity of it, it also means our [makefiles]({{< ref "post/makefile-is-awesome.md" >}}) will be less complex and easier to understand.
