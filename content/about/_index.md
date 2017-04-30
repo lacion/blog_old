@@ -1,10 +1,11 @@
 +++
-date = "2015-06-20T14:02:37+02:00"
-title = "About"
+date = "2017-01-03T00:00:00+01:00"
+draft = true
 hidden = true
-menu = "main"
-+++
+title = "About"
+[menu.main]
 
++++
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
