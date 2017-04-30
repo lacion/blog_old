@@ -1,6 +1,5 @@
 +++
 date = "2017-01-03T00:00:00+01:00"
-draft = true
 hidden = true
 title = "About"
 [menu.main]
@@ -22,6 +21,6 @@ Here are some links to pages about me:
 
 <hr>
 
-### Lorem ipsum dolor.
+### Background.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.
+I am a Site Reliability Engineer @ DroneDeploy have been for 3+ years now. Before DroneDeploy I worked as a DevOps Engineer at Location Labs (by Avast), speaking, writing, consulting, and very much not getting rich during Web 1.0, I worked on a bunch of web sites you haven't heard of.
