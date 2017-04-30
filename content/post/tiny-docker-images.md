@@ -1,14 +1,17 @@
 ---
-author: "Luis Morales"
-date: 2017-02-14
-tags: [ "docker", "engineering", "development" ]
+author: Luis Morales
+date: '2017-02-14T00:00:00Z'
+tags:
+- docker
+- engineering
+- development
 categories:
-  - "Docker"
-  - "Development"
+- Docker
+- Development
 linktitle: Tiny Docker Images
 title: Tiny Docker Images
----
 
+---
 One of my favorite aspects of docker is the lightweight nature of deployment, having just the bare bones needed to run whatever is needed to make your code run. The problem is that many running containers include more than what is absolutely necessary for the application to run.
 
 Given this i embrace Alpine Linux quickly, it's slim and it's bare bones nature meant i could build and manage my dependencies more granular, and using a build container and then a release container make my final images very small, so learning Alpine quirks was very much worth it.
