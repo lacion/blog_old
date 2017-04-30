@@ -1,5 +1,7 @@
 # Hugo default output directory
 /public
+.terraform
+/terraform/state
 
 ## OS Files
 # Windows
