@@ -11,13 +11,13 @@ My name is Luis Morales; I’m a lifelong programmer, site reliability engineer,
 
 Here are some links to pages about me:
 
-* [lacion@github](https://github.com/lacion) — my public projects on GitHub
+<a href="https://github.com/lacion" style="font-size: 1rem; background-color: rgb(255, 255, 255);">lacion@github</a><span style="font-size: 1rem;"> — my public projects on GitHub</span>
 
-* [LinkedIn profile](https://www.linkedin.com/in/luismmorales/) — my professional profile
+<a href="https://www.linkedin.com/in/luismmorales/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">LinkedIn profile</a><span style="font-size: 1rem;"> — my professional profile</span>
 
-* [Instagram](https://www.instagram.com/lacion/) — some of my aerial photography and videos
+<a href="https://www.instagram.com/lacion/" style="font-size: 1rem; background-color: rgb(255, 255, 255);">Instagram</a><span style="font-size: 1rem;"> — some of my aerial photography and videos</span>
 
-* [youtube](https://www.youtube.com/channel/UCJ_mzvOru8zItItJjDeRPRg) — a glimpse of things i capture with my drone
+<a href="https://www.youtube.com/channel/UCJ_mzvOru8zItItJjDeRPRg" style="font-size: 1rem; background-color: rgb(255, 255, 255);">youtube</a><span style="font-size: 1rem;">&nbsp;— a glimpse of things i capture with my drone</span>
 
 <hr>
 
