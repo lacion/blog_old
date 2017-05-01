@@ -12,7 +12,6 @@ categories:
 - Kubernetes
 - Docker
 - Development
-draft: true
 
 ---
 Kubernetes pods can be terminated any time, due to an auto-scaling policy or when rolling out an update. In most of such cases, you will probably want to control how to shutdown your application running inside the containers within the pods.
