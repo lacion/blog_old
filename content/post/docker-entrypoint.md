@@ -13,7 +13,6 @@ categories:
 - Development
 
 ---
-
 As you should know, Docker runs the entrypoint for your container as `PID 1` this means a lot of different things, one of which is explained in detail [here](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/) and [here](https://www.fpcomplete.com/blog/2016/10/docker-demons-pid1-orphans-zombies-signals)
 
 It's important to know that the Kernel treats `PID 1` in a special way, normally when you send `SIGTERM` to a process and your application does not have registered a handler for `SIGTERM` the kernel will fall back to default behavior (killing the process) however, if your application happens to be `PID 1` the kernel won't fallback to default behavior and sending `SIGTERM` would mean nothing at all.
