@@ -12,7 +12,13 @@ categories:
 - Development
 
 ---
+
+
 I talked about how to create [slim containers]({{< ref "post/tiny-docker-images.md" >}}) with only the necessary dependencies to run your applications in the past, but now next release of docker features multistage containers that reduce the complexity of having a build container and them copying your final application to a run container.
+
+More in-depth details about what multi-stage builds are can be seen in this 2 github issues [#32063](https://github.com/moby/moby/pull/32063) and [#31257](https://github.com/moby/moby/pull/31257)
+
+Docker multi-stage build is available in [v17.05.0-ce-rc1](https://github.com/moby/moby/releases/tag/v17.05.0-ce-rc1) and [v17.05.0-ce-rc2](https://github.com/moby/moby/releases/tag/v17.05.0-ce-rc2) in Mac using latest release of beta channel will be enough to start using this.
 
 What before was 2 containers and 2 dockerfiles we can now reduce to:
 
