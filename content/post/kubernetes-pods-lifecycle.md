@@ -1,6 +1,6 @@
 ---
 author: Luis Morales
-date: '2017-01-05T00:00:00Z'
+date: '2017-05-01T01:00:00+02:00'
 linktitle: Kuberetes pods lifecycle
 title: Kuberetes pods lifecycle
 tags:
