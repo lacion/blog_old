@@ -3,7 +3,6 @@ author: Luis Morales
 date: '2017-01-05T00:00:00Z'
 linktitle: Kuberetes pods lifecycle
 title: Kuberetes pods lifecycle
-draft: true
 tags:
 - kubernetes
 - docker
@@ -13,9 +12,9 @@ categories:
 - Kubernetes
 - Docker
 - Development
+draft: true
 
 ---
-
 Kubernetes pods can be terminated any time, due to an auto-scaling policy or when rolling out an update. In most of such cases, you will probably want to control how to shutdown your application running inside the containers within the pods.
 
 ***Kubernetes Pod Termination***
