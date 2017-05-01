@@ -12,8 +12,6 @@ categories:
 - Development
 
 ---
-
-
 I talked about how to create [slim containers]({{< ref "post/tiny-docker-images.md" >}}) with only the necessary dependencies to run your applications in the past, but now next release of docker features multistage containers that reduce the complexity of having a build container and them copying your final application to a run container.
 
 More in-depth details about what multi-stage builds are can be seen in this 2 github issues [#32063](https://github.com/moby/moby/pull/32063) and [#31257](https://github.com/moby/moby/pull/31257)
