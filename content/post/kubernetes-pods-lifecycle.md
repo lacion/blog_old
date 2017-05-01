@@ -28,7 +28,7 @@ When kubernetes terminates a pod a number of things happen:
 > allows a user to override the default and specify their own value. The value 0 force deletes the pod. In kubectl version >= 1.5, you
 > must specify an additional flag --force along with --grace-period=0 in order to perform force deletions.
 
-you can find more detailed info on pod termination in the kubernetes documentation https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods
+you can find more detailed info on pod termination in the [kubernetes documentation](https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods)
 
 ***Enter Kubernetes Lifecycle Hooks***
 
@@ -44,7 +44,7 @@ the 2 hooks we have available are:
 
 > This hook is called immediately before a container is terminated. It is blocking, meaning it is synchronous, so it must complete before the call to delete the container can be sent. No parameters are passed to the handler.
 
-you can find more detailed info on container lifecycle and troubleshooting them in the kubernetes documentation https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/
+you can find more detailed info on container lifecycle and troubleshooting them in the [kubernetes documentation](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)
 
 ***Getting our Hands Dirty***
 
