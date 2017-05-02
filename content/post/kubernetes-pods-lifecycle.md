@@ -95,3 +95,5 @@ There is a couple of important things in here.
 this hooks are essential if you wan to remove pods cleanly in your cluster to minimize impact, like draining connections before shutdown.
 
 Even though im not using `PostStart` scripts here, with some shell wizzardy we could talk to the kubernetes api to gather info on the current consul deployed pods to join them them making this hole setup fully automated.
+
+in my next post [Docker Entrypoint]({{< ref "post/docker-entrypoint.md" >}}) i will talk about how to make sure your application receives the correct signal from kubernetes.
