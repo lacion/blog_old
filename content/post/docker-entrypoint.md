@@ -13,7 +13,6 @@ categories:
 - Development
 
 ---
-
 This is a companion post to [Kubernetes Pods Lifecyle]({{< ref "post/kubernetes-pods-lifecycle.md" >}})
 
 As you should know, Docker runs the entrypoint for your container as `PID 1` this means a lot of different things, one of which is explained in detail [here](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/) and [here](https://www.fpcomplete.com/blog/2016/10/docker-demons-pid1-orphans-zombies-signals)
