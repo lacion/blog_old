@@ -12,7 +12,6 @@ categories:
 - Development
 
 ---
-
 Since version [1.12 of Docker](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/) we now have a new Dockerfile syntax to make our containers aware of the health of our running application using [HEALTHCHECK instruction in a Dockerfile](https://docs.docker.com/engine/reference/builder/#healthcheck) this is perfect for a container-specific way to determine readiness.
 
 Apart from exit codes, Docker doesn’t know much about the internal workings of containerized applications. When `docker run` is invoked from the command-line, it often starts a single process specified using the CMD instruction in a Dockerfile. That determines the result of the `STATUS` column in the `docker ps` command.
