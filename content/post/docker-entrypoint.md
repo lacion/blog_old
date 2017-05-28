@@ -3,7 +3,6 @@ author: Luis Morales
 date: '2017-05-03T01:00:00+02:00'
 linktitle: Docker Entrypoint
 title: Docker Entrypoint
-darft: true
 tags:
 - docker
 - engineering
