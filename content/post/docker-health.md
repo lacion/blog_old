@@ -29,7 +29,7 @@ cbcb5909800a        keyvanfatehi/sinopia:latest          "/opt/sinopia/star..." 
 
 This indicates that some containers are running while others have exited, either successfully or with an error `Exited (1)`. Unfortunately, even applications that show a status of “Up 2 days” may serve 500 errors or could be stuck in an infinite loop. Adding HEALTHCHECK to the container Dockerfile address the issue.
 
-Health are a single command. They run inside the container and if they exit with code 0, the container is reported as healthy, and if theey exit with code 1, the container is marked as unhealthy, interval `--interval=DURATION (default: 30s)`, timeout `--timeout=DURATION (default: 30s)` and number of retries `--timeout=DURATION (default: 30s)` can be spesified control how healthchecks are executed. There can only be one HEALTHCHECK instruction in a Dockerfile. If you list more than one then only the last HEALTHCHECK will take effect.
+Health are a single command. They run inside the container and if they exit with code 0, the container is reported as healthy, and if they exit with code 1, the container is marked as unhealthy, interval `--interval=DURATION (default: 30s)`, timeout `--timeout=DURATION (default: 30s)` and number of retries `--timeout=DURATION (default: 30s)` can be specified control how healthchecks are executed. There can only be one HEALTHCHECK instruction in a Dockerfile. If you list more than one then only the last HEALTHCHECK will take effect.
 
 A very basic example of an HTTP endpoint healthcheck could look like:
 
@@ -37,6 +37,6 @@ A very basic example of an HTTP endpoint healthcheck could look like:
 HEALTHCHECK --interval=1m --timeout=5s CMD curl -f http://localhost/healthz || exit 1
 ```
 
-Any output text that the command writes TO stdout or stderr will be stored in the health status and can be accesed using `docker inspect`. When the health status of a container changes, a health_status event is generated with the new status.
+Any output text that the command writes TO stdout or stderr will be stored in the health status and can be accessed using `docker inspect`. When the health status of a container changes, a health_status event is generated with the new status.
 
 It is very important to note here that [kubernetes does not currently support the native Docker HEALTHCHECK](https://github.com/kubernetes/kubernetes/issues/25829) and will not report the status of the container to the api, if you want to check health on Kubernetes refer to the docs on [Configuring Liveness and Readiness Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/)
