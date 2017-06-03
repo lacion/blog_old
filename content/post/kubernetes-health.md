@@ -1,8 +1,8 @@
 ---
 author: Luis Morales
 date: '2017-06-03T01:00:00+02:00'
-linktitle: Are you kubernetes containers alive and ready?
-title: Are you kubernetes containers alive and ready?
+linktitle: Are your kubernetes containers alive and ready?
+title: Are your kubernetes containers alive and ready?
 tags:
 - docker
 - engineering
