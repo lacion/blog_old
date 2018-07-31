@@ -1,0 +1,40 @@
+---
+label: Tags and Categories
+hide_body: false
+is_partial: false
+fields:
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: ''
+- name: linktitle
+  label: Linktitle
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  type: tag_list
+  label: Tags
+  description: Tags
+- name: categories
+  type: list
+  label: Categories
+  description: Categories
+pages:
+- content/post/multi-stage-docker-builds.md
